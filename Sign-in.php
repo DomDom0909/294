@@ -1,38 +1,24 @@
-<!DOCTYPE html>
-
-<html>
-
-<head>
-
-    <title>LOGIN</title>
-
-    <link rel="stylesheet" type="text/css" href="style.css">
-
-</head>
-
-<body>
-
-    <form action="Sign-in.php" method="post">
-
-        <h2>LOGIN</h2>
-
-        <?php if (isset($_GET['error'])) { ?>
-
-            <p class="error"><?php echo $_GET['error']; ?></p>
-
-        <?php } ?>
-
-        <label>User Name</label>
-
-        <input type="text" name="uname" placeholder="User Name"><br>
-
-        <label>Password</label>
-
-        <input type="password" name="password" placeholder="Password"><br> 
-
-        <button type="submit">Login</button>
-    </form>
-
+<body class="log_in">
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="stuff.php">Products</a>
+        <a href="categorys.php">Categorys</a>
+        <a class="active" href="Sign-in">Sign-in</a>
+    </nav>
+    <div class="Sign-in">
+        <h1 class="login">Login</h1>
+        <form id="Sign-in">
+            <label>Username</label>
+            <input class="username" type="username" id="username" placeholder="Anitta Steiner">
+            <br>
+            <br>
+            <label>Password</label>
+            <input class="password" type="password" id="password" placeholder="1234">
+            <br>
+            <br>
+            <button class="Login" id="Login">Login</button>
+        </form>
+    </div>
 </body>
 
-</html>
+<link rel="stylesheet" href="view/stylesheets/style.css">
