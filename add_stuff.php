@@ -61,3 +61,4 @@
     <button class="done" id="stuff-done">Done</button>
     
 </body>
+<link rel="stylesheet" href="view/stylesheets/style.css">

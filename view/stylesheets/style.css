@@ -51,3 +51,44 @@ h1.login {
     text-align: left;
     color: black;
 }
+
+table.product-category-table {
+    border: 1px solid white;
+    width: 100%;
+    border-collapse: collapse;
+    background-color: grey;
+}
+
+th.product-category-header {
+    border: 3px solid white;
+    border-collapse: collapse;
+    background-color: gray;
+    font-size: large;
+}
+
+td {
+    border: 3px solid white;
+    border-collapse: collapse;
+    background-color: grey;
+    color: black;
+    font-size: large;
+}
+
+input {
+    margin-left: auto;
+}
+
+table.add-new-category-product {
+    border-collapse: collapse;
+    border: 2px solid white;
+}
+
+td.add-new-category-product {
+    color: black;
+    font-size: large;
+    border: 1px solid red;
+}
+
+body.add-new-category-product {
+    background-color: black;
+}
